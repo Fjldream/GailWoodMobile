@@ -1,0 +1,358 @@
+html {
+    font-size: 26.66666666666666666666666667vw;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    font-size: 0.16rem;
+    line-height: 0.16rem;
+}
+
+.bgpic {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 6.67rem;
+    transform: translateX(-34.25%);
+    z-index: -1;
+}
+
+.header {
+    width: 100%;
+    height: 0.56rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: rgb(33, 33, 33);
+    font-size: 0.22rem;
+    line-height: 0.56rem;
+    color: #fff;
+}
+
+.header span {
+    margin-left: 0.65rem;
+}
+
+.header-left {
+    width: 0.56rem;
+    height: 0.56rem;
+    background-color: #111111;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.left-btn1 {
+    /* display: none; */
+    position: absolute;
+    left: 21.42857143%;
+    top: 21.42857143%;
+    transition: transform 0.2s ease;
+}
+
+.left-btn2 {
+    display: none;
+    position: absolute;
+    left: 21.42857143%;
+    top: 21.42857143%;
+    transition: transform 0.2s ease;
+}
+
+.header-right {
+    width: 0.56rem;
+    height: 0.56rem;
+    background-color: #111111;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.right-btn {
+    position: absolute;
+    left: 21.42857143%;
+    top: 21.42857143%;
+    transition: transform 0.2s ease;
+}
+
+/*    */
+.broadnav {
+    width: 0rem;
+    height: 6.11rem;
+    position: fixed;
+    top: 0.56rem;
+    left: 0;
+    background-color: #212121;
+    padding-top: 0.09rem;
+    z-index: 11;
+    display: none;
+    overflow: hidden;
+}
+
+.menu-list {
+    width: 100%;
+    height: 0.56rem;
+    color: #fff;
+    box-sizing: border-box;
+    padding-left: 0.11rem;
+    font-size: 0.16rem;
+    line-height: 0.56rem;
+}
+
+
+
+.menu-list:hover {
+    background-color: #111111;
+}
+
+.list1:hover {
+    background-color: #FC745E;
+}
+
+.menu-list-img {
+    width: 0.56rem;
+    height: 0.56rem;
+    float: left;
+    padding-top: 0.10rem;
+    padding-left: 0.10rem;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.menu-list-img img {
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.list1 {
+    background-color: #FC745E;
+}
+
+
+/*content1*/
+.content1 {
+    width: 3.75rem;
+    height: 6.77rem;
+    position: relative;
+    padding: 0;
+
+}
+
+.content1-con {
+    width: 3.7rem;
+    height: 3.629rem;
+    padding: 0 0.15rem;
+    box-sizing: border-box;
+    position: absolute;
+    top: 48.5%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.content1-con img {
+    width: 3.45rem;
+    height: 0.9365rem;
+}
+
+.slogan {
+    margin-top: 17%;
+    color: #fff;
+    font-size: 0.26rem;
+    line-height: 0.44rem;
+    text-align: center;
+    font-weight: 400;
+    font-family: "微软雅黑", "宋体", "Montserrat", Verdana, Arial, sans-serif;
+}
+
+.content2 {
+    width: 3.75rem;
+    height: 6.7rem;
+    position: relative;
+    padding: 1.2rem 0;
+    background-color: #fff;
+
+}
+
+.content2-img {
+    width: 3.45rem;
+    height: 2.3905rem;
+    box-shadow: 9px 15px 34px 0px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+}
+
+.content2-context {
+    width: 3.45rem;
+    height: 3.39rem;
+    border: 2px solid #e0e0e0;
+    box-sizing: border-box;
+    padding: 0.345rem;
+    margin: 0 auto;
+    margin-top: 0.85rem;
+}
+
+.content2-title {
+    font-size: 0.32rem;
+    line-height: 0.48rem;
+    display: block;
+    color: #212121;
+    font-family: "微软雅黑", "宋体", "Montserrat", Verdana, Arial, sans-serif;
+    font-weight: 400;
+}
+
+.content2-text {
+    color: #7e7f83;
+    text-align: left;
+    font-size: 0.16rem;
+    margin-top: 0.35rem;
+    line-height: 0.24rem;
+}
+
+.content2-btn {
+    background: #fc5e45;
+    border: 2px solid #fc5e45;
+    width: 1.76rem;
+    height: 0.5rem;
+    text-align: center;
+    line-height: 0.50rem;
+    font-size: 0.20rem;
+    box-sizing: border-box;
+    color: #fff;
+    font-weight: 700;
+    font-family: "微软雅黑", "宋体", "Montserrat", Verdana, Arial, sans-serif;
+}
+
+.content3 {
+    width: 3.75rem;
+    height: 13.21rem;
+    position: relative;
+    padding: 1.2rem 0.20rem;
+    background-color: rgb(0, 0, 0, 0.60);
+    box-sizing: border-box;
+}
+
+.content3-con {
+    width: 3.35rem;
+    height: 10.81rem;
+}
+
+.content3-title {
+    height: 0.48rem;
+    font-size: 0.32rem;
+    line-height: 0.48rem;
+    text-align: center;
+    color: #fff;
+}
+
+.content3-con p {
+    color: #fff;
+    text-align: center;
+    font-size: 0.16rem;
+    margin-top: 0.35rem;
+    line-height: 0.28rem;
+}
+
+.content3-display {
+    width: 2.5rem;
+    height: 1.665rem;
+    box-sizing: border-box;
+    border: 2px solid #fff;
+    margin: 0 auto;
+    margin-top: 0.4rem;
+    position: relative;
+}
+
+.displaynum {
+    position: absolute;
+    top: 0.05rem;
+    left: 0.1rem;
+    font-size: 0.1rem;
+    font-weight: 700;
+    color: #fff;
+    font-family: "微软雅黑", "宋体", "Montserrat", Verdana, Arial, sans-serif;
+}
+
+.display-img {
+    width: 0.5rem;
+    height: 0.5rem;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0.05rem;
+    right: 0.1rem;
+}
+
+.display-img img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.displaydiv {
+    width: 0.3rem;
+    border-bottom: 2px solid #fff;
+    position: absolute;
+    left: 0.1rem;
+    bottom: 0.68rem;
+}
+
+.displaytext {
+    font-size: 0.35rem;
+    line-height: 0.48rem;
+    color: #fff;
+    position: absolute;
+    left: 0.1rem;
+    bottom: 0.1rem;
+}
+
+.content4 {
+    width: 3.75rem;
+    height: 12.42rem;
+    background-color: #fff;
+    padding: 1.2rem 0.15rem;
+    box-sizing: border-box;
+}
+
+.content4-con {
+    width: 3.45rem;
+    height: 10.12rem;
+}
+
+.content4-title {
+    height: 0.48rem;
+    font-size: 0.32rem;
+    line-height: 0.48rem;
+    text-align: center;
+    color: #000;
+    margin-bottom: 0.65rem;
+}
+
+.content4-display {
+    width: 3.45rem;
+    height: 2.56417rem;
+    box-shadow: 9px 15px 34px 0px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    margin-top: 0.40rem;
+}
+
+.content4-btn {
+    width: 1.76rem;
+    height: 0.5rem;
+    background: #fc5e45;
+    border: 2px solid #fc5e45;
+    box-sizing: border-box;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 0.50rem;
+    font-size: 0.20rem;
+    color: #fff;
+    font-weight: 700;
+    font-family: "微软雅黑", "宋体", "Montserrat", Verdana, Arial, sans-serif;
+}
