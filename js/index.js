@@ -1,4 +1,5 @@
 $(".header-left").tap(function () {
+    console.log(1);
     if (flag == 0) {
         $(".left-btn1").css({
             "transform": "rotate(90deg) ",
@@ -21,7 +22,7 @@ $(".header-left").tap(function () {
             "display": "block"
         }).animate({
             width: "2.32rem"
-        }, 200)
+        }, 300)
     } else {
         $(".left-btn2").css({
             "transform": "rotate(0deg) "
